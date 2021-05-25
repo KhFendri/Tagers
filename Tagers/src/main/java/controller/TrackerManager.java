@@ -1,16 +1,26 @@
 package controller;
 
+import iServiceDAO.IDAOmanageTag;
+
 public class TrackerManager {
-	
-	public void regesterTag() {
-		
+	IDAOmanageTag _manageTracker;
+
+	public TrackerManager(IDAOmanageTag manageTracker) {
+		_manageTracker = manageTracker;
+
 	}
-	
-	public void reportLostTag() {
-		
+
+	public void regerterTracker() {
+
 	}
-	
-	public void reportFoundTag() {
-		
+
+	public void deleteTracker() {
+
 	}
+
+	public void regesterUser() {
+
+	}
+
+
 }

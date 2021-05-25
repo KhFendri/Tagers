@@ -4,25 +4,25 @@ public class Tag {
 	
 	private String IDtag;
 	private String IDman;
-	private String IDuser;
+	private String IDtracker;
 	private String TagName;	
 	private Ping lastping;
 	
-	public Tag(String iDtag, String iDman, String iDuser, String tagName, Ping lastping) {
+	public Tag(String iDtag, String iDman, String iDtracker, String tagName, Ping lastping) {
 		super();
 		IDtag = iDtag;
 		IDman = iDman;
-		IDuser = iDuser;
+		IDtracker = iDtracker;
 		TagName = tagName;
 		this.lastping = lastping;
 	}
 
-	public String getIDuser() {
-		return IDuser;
+	public String getIDtracker() {
+		return IDtracker;
 	}
 
-	public void setIDuser(String iDuser) {
-		IDuser = iDuser;
+	public void setIDtracker(String iDtracker) {
+		IDtracker = iDtracker;
 	}
 
 	public String getTagName() {
