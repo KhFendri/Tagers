@@ -1,5 +1,6 @@
 package iServiceDAO;
 
+import model.Ping;
 import model.Tag;
 
 public interface IDAOmanageTag {
@@ -10,5 +11,7 @@ public interface IDAOmanageTag {
 	
 	public void rLost(Tag t);
 	
-	public void rFound (Tag t);
+	public void rFound (Ping p);
+	
+	public void rRecoverd (Tag t);
 }
