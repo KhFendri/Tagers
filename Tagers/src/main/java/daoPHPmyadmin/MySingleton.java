@@ -20,7 +20,7 @@ public class MySingleton
 	{
 		// load and register JDBC driver for MySQL
 
-		String serveurBD = "jdbc:mysql://localhost:3306/qcm_bd";
+		String serveurBD = "jdbc:mysql://localhost:3306/trackerproject";
 		String login = "root";
 		String motPasse = "";
 		try

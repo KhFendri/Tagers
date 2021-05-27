@@ -3,11 +3,13 @@ package model;
 public class User {
 	private String IDuser;
 	private String name;
+	private Crs cr;
 
-	public User(String iDuser, String iDtracker) {
+	public User(String iDuser, String nname, String login ,String pw) {
 		super();
 		IDuser = iDuser;
-		name = iDtracker;
+		name = nname;
+		cr = new Crs(login, pw);
 	}
 
 	public String getIDuser() {
@@ -24,6 +26,17 @@ public class User {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public Crs getCr() {
+		return cr;
+	}
+	
+	public String getlogin() {
+		return cr.getLogin();
+	}
+	public String getpass() {
+		return cr.getPw();
 	}
 
 }

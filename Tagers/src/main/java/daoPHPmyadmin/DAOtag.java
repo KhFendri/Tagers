@@ -14,7 +14,7 @@ public class DAOtag implements IDAOmanageTag {
 
 	@Override
 	public void addTag(Tag t) {
-		// TODO Auto-generated method stub
+
 		String IDtag= t.getIDtag();
 		String IDman= t.getIDman();
 		String IDtracker= t.getIDtracker();
@@ -69,7 +69,7 @@ public class DAOtag implements IDAOmanageTag {
 		try {
 			Statement ps;
 			// ResultSet rs;
-			String requete = " INSERT INTO LostTags (IDtag) VALUES (`"+IDtag+"`);";
+			String requete = " INSERT INTO LostTags (IDtag) VALUES ('"+IDtag+"');";
 			ps = conn.createStatement();
 			ps.executeUpdate(requete);
 
@@ -110,7 +110,7 @@ public class DAOtag implements IDAOmanageTag {
 		try {
 			Statement ps;
 			// ResultSet rs;
-			String requete = " DELETE FROM `LostTags` WHERE IDtag =" +IDtag +"; ";
+			String requete = " DELETE FROM `LostTags` WHERE IDtag ='" +IDtag +"'; ";
 			ps = conn.createStatement();
 			ps.executeUpdate(requete);
 

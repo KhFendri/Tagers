@@ -7,12 +7,12 @@ import model.Crs;
 import model.Ping;
 import model.Tag;
 import model.Tracker;
+import model.User;
 
 public class TrackerManager {
 	IDAOmanageTracker _daoManageTracker;
 	IDAOmanageTag _daoManageTag;
 	IDAOmanageUser _daoManageuser;
-	
 
 	public TrackerManager(IDAOmanageTracker _daoManageTracker, IDAOmanageTag _daoManageTag,
 			IDAOmanageUser _daoManageuser) {
@@ -22,11 +22,17 @@ public class TrackerManager {
 		this._daoManageuser = _daoManageuser;
 	}
 
-	public boolean authenticate(Crs fc) {
-		if (_daoManageuser.isUserValid(fc))
-		return true;
-		else
-			return false;
+	public String authenticate(Crs fc) {
+		String att =_daoManageuser.isUserValid(fc);
+//		if (att == )
+//			return true;
+//		else
+//			return false;
+		return att;
+	}
+
+	public void addUser(User u) {
+		_daoManageuser.addUser(u);
 	}
 
 	public void regesterTag(Tag t) {
@@ -44,7 +50,6 @@ public class TrackerManager {
 	public void reportRecoveredTag(Tag t) {
 		_daoManageTag.rRecoverd(t);
 	}
-
 
 	public void renameTag(Tag t) {
 		_daoManageTag.renameTag(t);

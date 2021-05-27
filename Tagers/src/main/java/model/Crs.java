@@ -14,6 +14,13 @@ public class Crs {
 	public String getPw() {
 		return pw;
 	}
+	public void setLogin(String login) {
+		this.login = login;
+	}
+	public void setPw(String pw) {
+		this.pw = pw;
+	}
+	
 	
 	
 }

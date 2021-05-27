@@ -7,7 +7,7 @@ public interface IDAOmanageUser {
 	
 	public void addUser(User u);
 	public void deleteUser(User u);
-	public boolean isUserValid(Crs c);
+	public String isUserValid(Crs c);
 	
 
 }
