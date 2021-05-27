@@ -123,4 +123,12 @@ public class DAOtag implements IDAOmanageTag {
 		
 	}
 
+
+
+	@Override
+	public void renameTag(Tag t) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

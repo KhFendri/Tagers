@@ -14,4 +14,6 @@ public interface IDAOmanageTag {
 	public void rFound (Ping p);
 	
 	public void rRecoverd (Tag t);
+
+	public void renameTag(Tag t);
 }

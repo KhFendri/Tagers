@@ -11,15 +11,5 @@ public class TagManager {
 
 	}
 
-	public void regesterTag() {
 
-	}
-
-	public void reportLostTag() {
-
-	}
-
-	public void reportFoundTag() {
-
-	}
 }
