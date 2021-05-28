@@ -12,7 +12,8 @@ public class main {
 		DAOtracker daotracker = new DAOtracker();
 		DAOuser user = new DAOuser();
 		
-		
+		Server s = new Server();
+		s.live();
 		
 		
 	}
