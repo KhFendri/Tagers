@@ -15,5 +15,5 @@ public interface IDAOmanageTag {
 	
 	public void rRecoverd (Tag t);
 
-	public void renameTag(Tag t);
+	public void renameTag(Tag t, String newname);
 }

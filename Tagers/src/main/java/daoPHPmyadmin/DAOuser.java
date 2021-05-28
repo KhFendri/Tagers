@@ -43,7 +43,7 @@ public class DAOuser implements IDAOmanageUser {
 	}
 
 	@Override
-	public String isUserValid(Crs c) {
+	public String authentication(Crs c) {
 		String login = c.getLogin();
 		String pw = c.getPw();
 

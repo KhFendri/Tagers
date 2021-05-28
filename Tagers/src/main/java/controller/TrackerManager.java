@@ -23,7 +23,7 @@ public class TrackerManager {
 	}
 
 	public String authenticate(Crs fc) {
-		String att =_daoManageuser.isUserValid(fc);
+		String att =_daoManageuser.authentication(fc);
 //		if (att == )
 //			return true;
 //		else
@@ -51,8 +51,8 @@ public class TrackerManager {
 		_daoManageTag.rRecoverd(t);
 	}
 
-	public void renameTag(Tag t) {
-		_daoManageTag.renameTag(t);
+	public void renameTag(Tag t, String newname) {
+		_daoManageTag.renameTag(t, newname);
 	}
 
 	public void deleteTag(Tag t) {
@@ -63,7 +63,7 @@ public class TrackerManager {
 		_daoManageTracker.deleteTracker(tr);
 	}
 
-//	public void regerterTracker() {
-//
-//	}
+	public void regerterTracker(Tracker tra) {
+		_daoManageTracker.addTracker(tra);
+	}
 }
