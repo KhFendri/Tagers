@@ -4,7 +4,7 @@ import org.jdom2.Attribute;
 import org.jdom2.Document;
 import org.jdom2.Element;
 
-import model.Crs;
+import model.Credentials;
 import model.Ping;
 
 public class XMLutilities {
@@ -14,8 +14,8 @@ public class XMLutilities {
 
 		if (obj instanceof Ping) {
 			dom = generatePingXml((Ping) obj);
-		} else if (obj instanceof Crs) {
-			dom = generateLoginRequestXml((Crs) obj);
+		} else if (obj instanceof Credentials) {
+			dom = generateLoginRequestXml((Credentials) obj);
 		} else if (obj instanceof String) {
 			dom = generateLoginResponseXml((String) obj);
 		}
@@ -27,40 +27,40 @@ public class XMLutilities {
 		return dom;
 	}
 	
-	public static <Object> xmlToObject(Document dom)
-	{
-		Object obj = null;
-
-		// get the root and determine the type of object
-		Element root = dom.getRootElement();
-		String elementName = root.getName();
-		try
-		{
-			// extend this section to build the appropriate object
-			if(elementName.equals("login_request"))
-			{
-				// generate the LoginRequest object
-				obj = getLoginObject(root);
-			}
-			// extend this section to build the appropriate object
-			else if(elementName.equals("login_response"))
-			{
-				// generate the LoginResponse object
-				obj = getLoginResponseObject(root);
-			}
-			else if(elementName.equals("ping"))
-			{
-				// generate the LoginResponse object
-				obj = getPingObject(elementName);
-			}
-		}
-		catch(NumberFormatException ex)
-		{
-			System.out.println(ex);;
-		}
-
-		return obj;
-	}
+//	public static <Object> xmlToObject(Document dom)
+//	{
+//		Object obj = null;
+//
+//		// get the root and determine the type of object
+//		Element root = dom.getRootElement();
+//		String elementName = root.getName();
+//		try
+//		{
+//			// extend this section to build the appropriate object
+//			if(elementName.equals("login_request"))
+//			{
+//				// generate the LoginRequest object
+//				obj = getLoginObject(root);
+//			}
+//			// extend this section to build the appropriate object
+//			else if(elementName.equals("login_response"))
+//			{
+//				// generate the LoginResponse object
+//				obj = getLoginResponseObject(root);
+//			}
+//			else if(elementName.equals("ping"))
+//			{
+//				// generate the LoginResponse object
+//				obj = getPingObject(elementName);
+//			}
+//		}
+//		catch(NumberFormatException ex)
+//		{
+//			System.out.println(ex);;
+//		}
+//
+//		return obj;
+//	}
 
 
 
@@ -95,7 +95,7 @@ public class XMLutilities {
 
 	}
 
-	private static Document generateLoginRequestXml(Crs cred) {
+	private static Document generateLoginRequestXml(Credentials cred) {
 		Document dom = null;
 
 		// build the root element

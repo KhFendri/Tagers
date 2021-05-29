@@ -4,10 +4,13 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.springframework.stereotype.Repository;
+
 import iServiceDAO.IDAOmanageTag;
 import model.Ping;
 import model.Tag;
 
+@Repository("DAOtag")
 public class DAOtag implements IDAOmanageTag {
 	MySingleton singleton = MySingleton.getInstance();
 	Connection conn = singleton.getConn(); // establishing connection

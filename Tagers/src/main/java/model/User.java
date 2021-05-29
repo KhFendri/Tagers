@@ -1,15 +1,22 @@
 package model;
 
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
 public class User {
 	private String IDuser;
 	private String name;
-	private Crs cr;
+	private Credentials cr;
 
-	public User(String iDuser, String nname, String login ,String pw) {
+	public User(@JsonProperty("userid") String iDuser,
+			@JsonProperty("userid") String nname,
+			@JsonProperty("userid") String login,
+			@JsonProperty("userpassword") String pw) {
 		super();
 		IDuser = iDuser;
 		name = nname;
-		cr = new Crs(login, pw);
+		cr = new Credentials(login, pw);
 	}
 
 	public String getIDuser() {
@@ -28,10 +35,10 @@ public class User {
 		this.name = name;
 	}
 
-	public Crs getCr() {
+	public Credentials getCr() {
 		return cr;
 	}
-	
+
 	public String getlogin() {
 		return cr.getLogin();
 	}

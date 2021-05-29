@@ -1,9 +1,12 @@
 package model;
 
-public class Crs {
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class Credentials {
 	private String login;
 	private String pw;
-	public Crs(String login, String pw) {
+	public Credentials(@JsonProperty("mail") String login,
+			@JsonProperty("password") String pw) {
 		super();
 		this.login = login;
 		this.pw = pw;
@@ -20,7 +23,5 @@ public class Crs {
 	public void setPw(String pw) {
 		this.pw = pw;
 	}
-	
-	
-	
+
 }

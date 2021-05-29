@@ -4,9 +4,12 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.springframework.stereotype.Repository;
+
 import iServiceDAO.IDAOmanageTracker;
 import model.Tracker;
 
+@Repository("DAOtracker")
 public class DAOtracker implements IDAOmanageTracker {
 
 	MySingleton singleton = MySingleton.getInstance();

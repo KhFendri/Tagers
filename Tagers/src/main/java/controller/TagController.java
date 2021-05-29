@@ -2,11 +2,11 @@ package controller;
 
 import iServiceDAO.IDAOmanageTag;
 
-public class TagManager {
+public class TagController {
 
 	IDAOmanageTag _manageTag;
 
-	public TagManager(IDAOmanageTag manageTag) {
+	public TagController(IDAOmanageTag manageTag) {
 		_manageTag = manageTag;
 
 	}

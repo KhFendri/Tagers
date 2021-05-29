@@ -1,33 +1,41 @@
 package controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
+
 import iServiceDAO.IDAOmanageTag;
 import iServiceDAO.IDAOmanageTracker;
 import iServiceDAO.IDAOmanageUser;
-import model.Crs;
+import model.Credentials;
 import model.Ping;
 import model.Tag;
 import model.Tracker;
 import model.User;
 
-public class TrackerManager {
-	IDAOmanageTracker _daoManageTracker;
-	IDAOmanageTag _daoManageTag;
-	IDAOmanageUser _daoManageuser;
+@Service
+public class TrackerController {
+	final IDAOmanageTracker _daoManageTracker;
+	final IDAOmanageTag _daoManageTag;
+	final IDAOmanageUser _daoManageuser;
 
-	public TrackerManager(IDAOmanageTracker _daoManageTracker, IDAOmanageTag _daoManageTag,
-			IDAOmanageUser _daoManageuser) {
+	@Autowired
+	public TrackerController(
+			@Qualifier("DAOtracker") IDAOmanageTracker _daoManageTracker,
+			@Qualifier("DAOtag") IDAOmanageTag _daoManageTag,
+			@Qualifier("DAOuser") IDAOmanageUser _daoManageuser) {
 		super();
 		this._daoManageTracker = _daoManageTracker;
 		this._daoManageTag = _daoManageTag;
 		this._daoManageuser = _daoManageuser;
 	}
 
-	public String authenticate(Crs fc) {
-		String att =_daoManageuser.authentication(fc);
-//		if (att == )
-//			return true;
-//		else
-//			return false;
+	public String authenticate(Credentials fc) {
+		String att = _daoManageuser.authentication(fc);
+		// if (att == )
+		// return true;
+		// else
+		// return false;
 		return att;
 	}
 

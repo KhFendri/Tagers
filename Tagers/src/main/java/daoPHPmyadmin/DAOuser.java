@@ -5,10 +5,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.springframework.stereotype.Repository;
+
 import iServiceDAO.IDAOmanageUser;
-import model.Crs;
+import model.Credentials;
 import model.User;
 
+@Repository("DAOuser")
 public class DAOuser implements IDAOmanageUser {
 	MySingleton singleton = MySingleton.getInstance();
 	Connection conn = singleton.getConn(); // establishing connection
@@ -43,7 +46,7 @@ public class DAOuser implements IDAOmanageUser {
 	}
 
 	@Override
-	public String authentication(Crs c) {
+	public String authentication(Credentials c) {
 		String login = c.getLogin();
 		String pw = c.getPw();
 
