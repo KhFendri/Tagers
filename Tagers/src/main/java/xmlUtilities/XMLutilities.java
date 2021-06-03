@@ -4,8 +4,8 @@ import org.jdom2.Attribute;
 import org.jdom2.Document;
 import org.jdom2.Element;
 
-import model.Credentials;
-import model.Ping;
+import application.model.Credentials;
+import application.model.Ping;
 
 public class XMLutilities {
 
