@@ -1,4 +1,1773 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LoWNwMR-Eeuc6NqMCSn2Fw">
-  <modelElement href="platform:/resource/Tagers/UML/Tagers.uml#_Lk54MMR-Eeuc6NqMCSn2Fw"/>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LoWNwMR-Eeuc6NqMCSn2Fw">
+  <modelElement href="Tagers.uml#_XZxNYMR-Eeuc6NqMCSn2Fw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HSDtgMR_Eeuc6NqMCSn2Fw" sourceAnchor="334.0,128.0" targetAnchor="174.0,0.0" target="_HSiOoMR_Eeuc6NqMCSn2Fw" source="_HSHX4MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNCDkMR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HSDtgcR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNDRsMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HSDtgsR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HdqgkMR_Eeuc6NqMCSn2Fw" position="2.5,-29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HSDtg8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNCDkcR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdpSccR_Eeuc6NqMCSn2Fw" position="-16.5,24.333333333333314"/>
+      <visibility xmi:id="_HSDthMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSDthcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HSDthsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_daotag" navigable="true">
+      <modelElement href="Tagers.uml#_HMUR4MR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdqgkcR_Eeuc6NqMCSn2Fw" position="2.5,-69.33333333333337"/>
+      <visibility xmi:id="_HSDth8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSDtiMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HSE7oMR_Eeuc6NqMCSn2Fw" sourceAnchor="168.0,0.0" targetAnchor="136.0,116.0" target="_HSwREMR_Eeuc6NqMCSn2Fw" source="_HSHX4MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNDRscR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HSE7ocR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNEf0MR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HSE7osR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HdrusMR_Eeuc6NqMCSn2Fw" position="1.5,-15.454545454545439"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HSE7o8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNDRssR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdrHoMR_Eeuc6NqMCSn2Fw" position="1.5,-73.19999999999999"/>
+      <visibility xmi:id="_HSE7pMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSE7pcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HSE7psR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_daotracker" navigable="true">
+      <modelElement href="Tagers.uml#_HMU48MR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdruscR_Eeuc6NqMCSn2Fw" position="-78.50000000000003,28.19999999999999"/>
+      <visibility xmi:id="_HSE7p8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSE7qMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HSGJwMR_Eeuc6NqMCSn2Fw" sourceAnchor="15.0,128.0" targetAnchor="273.0,0.0" target="_HS6pIMR_Eeuc6NqMCSn2Fw" source="_HSHX4MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNEf0cR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HSGJwcR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNFt8MR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HSGJwsR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_Hds80MR_Eeuc6NqMCSn2Fw" position="2.0,25.66666666666663"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HSGJw8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNEf0sR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdsVwMR_Eeuc6NqMCSn2Fw" position="2.0,48.5"/>
+      <visibility xmi:id="_HSGJxMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSGJxcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HSGJxsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_daouser" navigable="true">
+      <modelElement href="Tagers.uml#_HMVgAMR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hds80cR_Eeuc6NqMCSn2Fw" position="-64.0,-69.75"/>
+      <visibility xmi:id="_HSGJx8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSGJyMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HSGw0MR_Eeuc6NqMCSn2Fw" sourceAnchor="318.0,0.0" targetAnchor="905.0,85.0" target="_HWUicMR_Eeuc6NqMCSn2Fw" source="_HSHX4MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNFt8cR_Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6Uq0MSAEeuc6NqMCSn2Fw" sourceY="-314" targetX="719"/>
+    <stereotypes xmi:id="_HSGw0cR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNGVAMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HSGw0sR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_Hkp5YMR_Eeuc6NqMCSn2Fw" position="-378.0,1.9999999999999432"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HSGw08R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNFt8sR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HkorQMR_Eeuc6NqMCSn2Fw" position="2.000000000000007,-84.14285714285711"/>
+      <visibility xmi:id="_HSGw1MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSGw1cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HSGw1sR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="trackerCRTL" navigable="true">
+      <modelElement href="Tagers.uml#_HMWHEMR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hkp5YcR_Eeuc6NqMCSn2Fw" position="40.00000000000023,6.999999999999773"/>
+      <visibility xmi:id="_HSGw18R_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HSGw2MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HShAgMR_Eeuc6NqMCSn2Fw" sourceAnchor="144.0,0.0" targetAnchor="108.0,137.0" target="_HTIrkMR_Eeuc6NqMCSn2Fw" source="_HSiOoMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNGVAcR_Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6S1ocSAEeuc6NqMCSn2Fw" sourceY="-72" targetX="479" targetY="315"/>
+    <bendpoints xmi:id="_X6S1osSAEeuc6NqMCSn2Fw" sourceX="-479" sourceY="-72" targetY="315"/>
+    <stereotypes xmi:id="_HShAgcR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNG8EMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HShAgsR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HduK8MR_Eeuc6NqMCSn2Fw" position="-0.45454545454546746,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HShAg8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNGVAsR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hdtj4MR_Eeuc6NqMCSn2Fw" position="-55.49999999999999,-71.0"/>
+      <visibility xmi:id="_HShAhMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HShAhcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HShAhsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="singleton" navigable="true">
+      <modelElement href="Tagers.uml#_HMX8QMR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HduK8cR_Eeuc6NqMCSn2Fw" position="2.0,34.49999999999994"/>
+      <visibility xmi:id="_HShAh8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HShAiMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HShnkMR_Eeuc6NqMCSn2Fw" source="_HSiOoMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNHjIMR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HShnkcR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNIKMMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HShnksR_Eeuc6NqMCSn2Fw" text=""/>
+    <sourceRole xmi:id="_HShnk8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNHjIcR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HShnlMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HShnlcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HShnlsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="Tagers.uml#_HMYjUMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HShnl8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HShnmMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HSsmsMR_Eeuc6NqMCSn2Fw" sourceAnchor="0.0,88.0" targetAnchor="216.0,68.0" target="_HTIrkMR_Eeuc6NqMCSn2Fw" source="_HSwREMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNIKMcR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HSub4MR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNIxQMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HSt00MR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HdvZEcR_Eeuc6NqMCSn2Fw" position="-28.0,2.499999999999986"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HSt00cR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNIKMsR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdvZEMR_Eeuc6NqMCSn2Fw" position="-27.714285714285722,2.5"/>
+      <visibility xmi:id="_HSvC8cR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSvC8MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HSt00sR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="singleton" navigable="true">
+      <modelElement href="Tagers.uml#_HMaYgMR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdwAIMR_Eeuc6NqMCSn2Fw" position="12.0,-46.5"/>
+      <visibility xmi:id="_HSvC88R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSvC8sR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HSsmscR_Eeuc6NqMCSn2Fw" source="_HSwREMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNIxQcR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HSub5MR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNJYUMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HSub4cR_Eeuc6NqMCSn2Fw" text=""/>
+    <sourceRole xmi:id="_HSub4sR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNIxQsR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSvC9cR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSvC9MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HSub48R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="Tagers.uml#_HMbmoMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSvqAMR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSvC9sR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HS1woMR_Eeuc6NqMCSn2Fw" sourceAnchor="53.0,0.0" targetAnchor="78.0,137.0" target="_HTIrkMR_Eeuc6NqMCSn2Fw" source="_HS6pIMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNJYUcR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HS4M4sR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNJ_YMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HS3l0MR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HdxOQMR_Eeuc6NqMCSn2Fw" position="-44.0,-16.360000000000014"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HS4M4MR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNJYUsR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdwnMMR_Eeuc6NqMCSn2Fw" position="-17.0,-82.5"/>
+      <visibility xmi:id="_HS5bAcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HS5bAMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HS4M4cR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="singleton" navigable="true">
+      <modelElement href="Tagers.uml#_HMc0wMR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdxOQcR_Eeuc6NqMCSn2Fw" position="-105.0,1.0"/>
+      <visibility xmi:id="_HS5bA8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HS5bAsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HS2XsMR_Eeuc6NqMCSn2Fw" source="_HS6pIMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNJ_YcR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HS4z8cR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNKmcMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HS4M48R_Eeuc6NqMCSn2Fw" text=""/>
+    <sourceRole xmi:id="_HS4M5MR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNJ_YsR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HS5bBcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HS5bBMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HS4z8MR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="Tagers.uml#_HMdb0MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HS6CEcR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HS6CEMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HTCk8MR_Eeuc6NqMCSn2Fw" sourceAnchor="138.0,137.0" targetAnchor="216.0,111.0" target="_HTIrkMR_Eeuc6NqMCSn2Fw" source="_HTIrkMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNL0kcR_Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6VR4MSAEeuc6NqMCSn2Fw" sourceY="19" targetX="-78" targetY="45"/>
+    <bendpoints xmi:id="_X6VR4cSAEeuc6NqMCSn2Fw" sourceX="192" sourceY="19" targetX="114" targetY="45"/>
+    <bendpoints xmi:id="_X6VR4sSAEeuc6NqMCSn2Fw" sourceX="192" sourceY="-26" targetX="114"/>
+    <stereotypes xmi:id="_HTEaI8R_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNMboMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HTEaIMR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HdzDcMR_Eeuc6NqMCSn2Fw" position="-83.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HTEaIcR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNL0ksR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdycYMR_Eeuc6NqMCSn2Fw" position="44.75,21.0"/>
+      <visibility xmi:id="_HTFoQcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTFoQMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HTEaIsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="m" navigable="true">
+      <modelElement href="Tagers.uml#_HMf4EMR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdzDccR_Eeuc6NqMCSn2Fw" position="-15.5,47.0"/>
+      <visibility xmi:id="_HTGPUcR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HTGPUMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HTDMAMR_Eeuc6NqMCSn2Fw" source="_HTIrkMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HNLNgMR_Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HTFBM8R_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_HNL0kMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HTFBMMR_Eeuc6NqMCSn2Fw" text=""/>
+    <sourceRole xmi:id="_HTFBMcR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HNLNgcR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTG2YMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTGPU8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HTFBMsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="Tagers.uml#_HMep8MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTG2YsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HTG2YcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HTVf4MR_Eeuc6NqMCSn2Fw" sourceAnchor="193.0,194.0" targetAnchor="279.0,0.0" target="_HTi7QMR_Eeuc6NqMCSn2Fw" source="_HTZKQMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HM5gsMR_Eeuc6NqMCSn2Fw"/>
+    <nameVisual xmi:id="_HTXVEMR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HdzqgcR_Eeuc6NqMCSn2Fw" position="1.5,-12.333333333333371"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HTX8IMR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="lastping" navigable="true">
+      <modelElement href="Tagers.uml#_HMnz4MR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HdzqgMR_Eeuc6NqMCSn2Fw" position="40.5,-1.5"/>
+      <visibility xmi:id="_HTYjMcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTYjMMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HTX8IcR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_HM5gscR_Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hd0RkMR_Eeuc6NqMCSn2Fw" position="-17.5,-43.5"/>
+      <visibility xmi:id="_HTYjM8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTYjMsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HWNNsMR_Eeuc6NqMCSn2Fw" sourceAnchor="193.0,0.0" targetAnchor="0.0,53.0" target="_HWfhkMR_Eeuc6NqMCSn2Fw" source="_HWNNucR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_dTmukMR-Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6S1oMSAEeuc6NqMCSn2Fw" sourceY="-199" targetX="-1241"/>
+    <stereotypes xmi:id="_HWNNscR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_dTnVoMR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HWNNssR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_Hkux4MR_Eeuc6NqMCSn2Fw" position="602.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HWNNs8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_dTmukcR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HktjwMR_Eeuc6NqMCSn2Fw" position="2.0,-76.4"/>
+      <visibility xmi:id="_HWNNtMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWNNtcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HWNNtsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_manageTag" navigable="true">
+      <modelElement href="Tagers.uml#_dTk5YMR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hkux4cR_Eeuc6NqMCSn2Fw" position="-154.375,-47.0"/>
+      <visibility xmi:id="_HWNNt8R_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HWNNuMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HWPp8MR_Eeuc6NqMCSn2Fw" sourceAnchor="453.0,0.0" targetAnchor="0.0,83.0" target="_HWfhkMR_Eeuc6NqMCSn2Fw" source="_HWUicMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_Xe6zIcR-Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6SOkMSAEeuc6NqMCSn2Fw" sourceY="-138" targetX="-536"/>
+    <stereotypes xmi:id="_HWSGMsR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_Xe7aMMR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HWRfIMR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HkwnEMR_Eeuc6NqMCSn2Fw" position="265.83333333333326,1.9999999999999432"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HWSGMMR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_Xe6zIsR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HkvY8MR_Eeuc6NqMCSn2Fw" position="0.5,-97.0"/>
+      <visibility xmi:id="_HWStQcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWStQMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HWSGMcR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_daoManageTag" navigable="true">
+      <modelElement href="Tagers.uml#_XeU9QMR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HkwnEcR_Eeuc6NqMCSn2Fw" position="-174.25,2.0"/>
+      <visibility xmi:id="_HWStQ8R_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HWStQsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HWTUUMR_Eeuc6NqMCSn2Fw" sourceAnchor="905.0,55.0" targetAnchor="68.0,90.0" target="_HWpSkMR_Eeuc6NqMCSn2Fw" source="_HWUicMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_Xe5lAMR-Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6SOkcSAEeuc6NqMCSn2Fw" sourceX="528" targetY="94"/>
+    <stereotypes xmi:id="_HWTUUcR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_Xe6zIMR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HWTUUsR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_HkycQMR_Eeuc6NqMCSn2Fw" position="-38.5,-58.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HWTUU8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_Xe5lAcR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hkx1MMR_Eeuc6NqMCSn2Fw" position="32.90625,-47.0"/>
+      <visibility xmi:id="_HWTUVMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWTUVcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HWTUVsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_daoManageTracker" navigable="true">
+      <modelElement href="Tagers.uml#_XeUWMMR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HkycQcR_Eeuc6NqMCSn2Fw" position="-161.5,48.0"/>
+      <visibility xmi:id="_HWTUV8R_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HWTUWMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HWT7YMR_Eeuc6NqMCSn2Fw" sourceAnchor="0.0,130.0" targetAnchor="134.0,109.0" target="_HWtkAMR_Eeuc6NqMCSn2Fw" source="_HWUicMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_Xe7aMcR-Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6SOksSAEeuc6NqMCSn2Fw" sourceX="-587" targetY="139"/>
+    <stereotypes xmi:id="_HWT7YcR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_Xe8oUMR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HWT7YsR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_Hk0RcMR_Eeuc6NqMCSn2Fw" position="40.5,-17.500000000000043"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HWT7Y8R_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_Xe7aMsR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_HkzqYMR_Eeuc6NqMCSn2Fw" position="-51.65625,-46.500000000000014"/>
+      <visibility xmi:id="_HWT7ZMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWT7ZcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HWT7ZsR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="_daoManageuser" navigable="true">
+      <modelElement href="Tagers.uml#_XeU9QcR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hk0RccR_Eeuc6NqMCSn2Fw" position="0.5,53.499999999999766"/>
+      <visibility xmi:id="_HWT7Z8R_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HWT7aMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HWdsYMR_Eeuc6NqMCSn2Fw" sourceAnchor="289.0,96.0" targetAnchor="266.0,77.0" dashed="true" superClass="_HWfhkMR_Eeuc6NqMCSn2Fw" subClass="_HSiOoMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HLhAoMR_Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6TcsMSAEeuc6NqMCSn2Fw" sourceX="70" targetX="570" targetY="884"/>
+    <bendpoints xmi:id="_X6TcscSAEeuc6NqMCSn2Fw" sourceX="70" sourceY="-884" targetX="570"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HWoEcMR_Eeuc6NqMCSn2Fw" sourceAnchor="125.0,0.0" targetAnchor="98.0,90.0" dashed="true" superClass="_HWpSkMR_Eeuc6NqMCSn2Fw" subClass="_HSwREMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HLrYsMR_Eeuc6NqMCSn2Fw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_HWru0MR_Eeuc6NqMCSn2Fw" sourceAnchor="23.0,0.0" targetAnchor="104.0,109.0" dashed="true" superClass="_HWtkAMR_Eeuc6NqMCSn2Fw" subClass="_HS6pIMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HLw4QcR_Eeuc6NqMCSn2Fw"/>
+    <bendpoints xmi:id="_X6TcssSAEeuc6NqMCSn2Fw" sourceY="-333" targetX="1688" targetY="345"/>
+    <bendpoints xmi:id="_X6Tcs8SAEeuc6NqMCSn2Fw" sourceX="-1688" sourceY="-333" targetY="345"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HW0RsMR_Eeuc6NqMCSn2Fw" sourceAnchor="425.0,51.0" targetAnchor="0.0,49.0" target="_HW6_YMR_Eeuc6NqMCSn2Fw" source="_HW3VAMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_lIkfsMR-Eeuc6NqMCSn2Fw"/>
+    <stereotypes xmi:id="_HW2G4cR_Eeuc6NqMCSn2Fw" name="Reference">
+      <modelElement href="Tagers.uml#_lIlGwMR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_HW1f0MR_Eeuc6NqMCSn2Fw" text="">
+      <visualProperties xmi:id="_Hk1fkcR_Eeuc6NqMCSn2Fw" position="-18.5,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_HW1f0cR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="">
+      <modelElement href="Tagers.uml#_lIkfscR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hk1fkMR_Eeuc6NqMCSn2Fw" position="13.555555555555657,-46.5"/>
+      <visibility xmi:id="_HW2t8cR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW2t8MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HW2G4MR_Eeuc6NqMCSn2Fw" aggregationKind="NONE" name="cr" navigable="true">
+      <modelElement href="Tagers.uml#_lIgOQcR-Eeuc6NqMCSn2Fw"/>
+      <visualProperties xmi:id="_Hk2GoMR_Eeuc6NqMCSn2Fw" position="-43.16666666666674,-46.5"/>
+      <visibility xmi:id="_HW2t88R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW2t8sR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HWUicMR_Eeuc6NqMCSn2Fw" name="TrackerController" associationsIn="_HSGw0MR_Eeuc6NqMCSn2Fw" associationsOut="_HWPp8MR_Eeuc6NqMCSn2Fw _HWTUUMR_Eeuc6NqMCSn2Fw _HWT7YMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_Xa2LcMR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HWUiccR_Eeuc6NqMCSn2Fw" position="-1602.0,-85.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HWUicsR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+      <modelElement href="Tagers.uml#_XbiH8MR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_HWUic8R_Eeuc6NqMCSn2Fw" name="Annotations">
+      <modelElement href="Tagers.uml#_Xb1C4MR-Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <visibility xmi:id="_HWUidMR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HWUidcR_Eeuc6NqMCSn2Fw" name="_daoManageTracker">
+      <modelElement href="Tagers.uml#_XeUWMMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWUidsR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HWUid8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HWUieMR_Eeuc6NqMCSn2Fw" name="IDAOmanageTracker">
+        <modelElement href="Tagers.uml#_XdlWYcR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HWUiecR_Eeuc6NqMCSn2Fw" name="_daoManageTag">
+      <modelElement href="Tagers.uml#_XeU9QMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWUiesR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HWUie8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HWUifMR_Eeuc6NqMCSn2Fw" name="IDAOmanageTag">
+        <modelElement href="Tagers.uml#_XdjhMcR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HWUifcR_Eeuc6NqMCSn2Fw" name="_daoManageuser">
+      <modelElement href="Tagers.uml#_XeU9QcR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWUifsR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HWUif8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HWUigMR_Eeuc6NqMCSn2Fw" name="IDAOmanageUser">
+        <modelElement href="Tagers.uml#_XdnLkcR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HWUigcR_Eeuc6NqMCSn2Fw" name="TrackerController">
+      <modelElement href="Tagers.uml#_Xd-_AMR-Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HWUigsR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <stereotypes xmi:id="_HWUig8R_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_XeG60sR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUihMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUihcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HWUihsR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_XeD3gMR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HWUih8R_Eeuc6NqMCSn2Fw" name="TrackerController">
+          <modelElement href="Tagers.uml#_Xa2LcMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HWUiiMR_Eeuc6NqMCSn2Fw" name="_daoManageTracker">
+        <modelElement href="Tagers.uml#_Xd-_AcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUiicR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUiisR_Eeuc6NqMCSn2Fw" name="IDAOmanageTracker">
+          <modelElement href="Tagers.uml#_XdlWYcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HWUii8R_Eeuc6NqMCSn2Fw" name="_daoManageTag">
+        <modelElement href="Tagers.uml#_Xd_mEMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUijMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUijcR_Eeuc6NqMCSn2Fw" name="IDAOmanageTag">
+          <modelElement href="Tagers.uml#_XdjhMcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HWUijsR_Eeuc6NqMCSn2Fw" name="_daoManageuser">
+        <modelElement href="Tagers.uml#_Xd_mEcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUij8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUikMR_Eeuc6NqMCSn2Fw" name="IDAOmanageUser">
+          <modelElement href="Tagers.uml#_XdnLkcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUikcR_Eeuc6NqMCSn2Fw" name="authenticate">
+      <modelElement href="Tagers.uml#_XeHh4MR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUiksR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeII8cR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUik8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUilMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HWUilcR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_XeII8MR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HWUilsR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HWUil8R_Eeuc6NqMCSn2Fw" name="fc">
+        <modelElement href="Tagers.uml#_XeHh4cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUimMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUimcR_Eeuc6NqMCSn2Fw" name="Credentials">
+          <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUimsR_Eeuc6NqMCSn2Fw" name="addUser">
+      <modelElement href="Tagers.uml#_XeIwAMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUim8R_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeJ-IMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUinMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUincR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUinsR_Eeuc6NqMCSn2Fw" name="u">
+        <modelElement href="Tagers.uml#_XeJXEMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUin8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUioMR_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUiocR_Eeuc6NqMCSn2Fw" name="regesterTag">
+      <modelElement href="Tagers.uml#_XeKlMMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUiosR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeLMQMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUio8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUipMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUipcR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_XeKlMcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUipsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUip8R_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUiqMR_Eeuc6NqMCSn2Fw" name="reportLostTag">
+      <modelElement href="Tagers.uml#_XeLMQcR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUiqcR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeLzUcR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUiqsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUiq8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUirMR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_XeLzUMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUircR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUirsR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUir8R_Eeuc6NqMCSn2Fw" name="reportFoundTag">
+      <modelElement href="Tagers.uml#_XeMaYMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUisMR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeNBcMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUiscR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUissR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUis8R_Eeuc6NqMCSn2Fw" name="p">
+        <modelElement href="Tagers.uml#_XeMaYcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUitMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUitcR_Eeuc6NqMCSn2Fw" name="Ping">
+          <modelElement href="Tagers.uml#_Xdq18cR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUitsR_Eeuc6NqMCSn2Fw" name="reportRecoveredTag">
+      <modelElement href="Tagers.uml#_XeNogMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUit8R_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeNogsR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUiuMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUiucR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUiusR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_XeNogcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUiu8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUivMR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUivcR_Eeuc6NqMCSn2Fw" name="renameTag">
+      <modelElement href="Tagers.uml#_XeOPkMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUivsR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XePdsMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUiv8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUiwMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUiwcR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_XeO2oMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUiwsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUiw8R_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HWUixMR_Eeuc6NqMCSn2Fw" name="newname">
+        <modelElement href="Tagers.uml#_XeO2ocR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUixcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUixsR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUix8R_Eeuc6NqMCSn2Fw" name="deleteTag">
+      <modelElement href="Tagers.uml#_XeQEwMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUiyMR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeQr0MR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUiycR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUiysR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUiy8R_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_XeQEwcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUizMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUizcR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUizsR_Eeuc6NqMCSn2Fw" name="deleteTracker">
+      <modelElement href="Tagers.uml#_XeQr0cR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUiz8R_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeRS4cR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUi0MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUi0cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUi0sR_Eeuc6NqMCSn2Fw" name="tr">
+        <modelElement href="Tagers.uml#_XeRS4MR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUi08R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUi1MR_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWUi1cR_Eeuc6NqMCSn2Fw" name="regerterTracker">
+      <modelElement href="Tagers.uml#_XeR58MR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWUi1sR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_XeShAMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWUi18R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWUi2MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWUi2cR_Eeuc6NqMCSn2Fw" name="tra">
+        <modelElement href="Tagers.uml#_XeR58cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWUi2sR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWUi28R_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HWNNucR_Eeuc6NqMCSn2Fw" name="TagController" associationsOut="_HWNNsMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_dTeLsMR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HWNNusR_Eeuc6NqMCSn2Fw" position="-2047.0,-54.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HWNNu8R_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HWNNvMR_Eeuc6NqMCSn2Fw" name="_manageTag">
+      <modelElement href="Tagers.uml#_dTk5YMR-Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HWNNvcR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_dTlgcMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HWNNvsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HWNNv8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HWNNwMR_Eeuc6NqMCSn2Fw" name="IDAOmanageTag">
+        <modelElement href="Tagers.uml#_XdjhMcR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HWNNwcR_Eeuc6NqMCSn2Fw" name="TagController">
+      <modelElement href="Tagers.uml#_dTjrQMR-Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HWNNwsR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <visibility xmi:id="_HWNNw8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWNNxMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HWNNxcR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_dTkSU8R-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HWNNxsR_Eeuc6NqMCSn2Fw" name="TagController">
+          <modelElement href="Tagers.uml#_dTeLsMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HWNNx8R_Eeuc6NqMCSn2Fw" name="manageTag">
+        <modelElement href="Tagers.uml#_dTkSUMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWNNyMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWNNycR_Eeuc6NqMCSn2Fw" name="IDAOmanageTag">
+          <modelElement href="Tagers.uml#_XdjhMcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_HWfhkMR_Eeuc6NqMCSn2Fw" name="IDAOmanageTag" associationsIn="_HWPp8MR_Eeuc6NqMCSn2Fw _HWNNsMR_Eeuc6NqMCSn2Fw" subclassedBy="_HWdsYMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_XdjhMcR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HWfhkcR_Eeuc6NqMCSn2Fw" position="-613.0,-306.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HWfhksR_Eeuc6NqMCSn2Fw" label="+"/>
+    <operations xmi:id="_HWfhk8R_Eeuc6NqMCSn2Fw" name="addTag">
+      <modelElement href="Tagers.uml#_5ae5sMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWfhlMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWfhlcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWfhlsR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5ae5scR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfhl8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhmMR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWfhmcR_Eeuc6NqMCSn2Fw" name="deleteTag">
+      <modelElement href="Tagers.uml#_5afgwMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWfhmsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWfhm8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWfhnMR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5afgwcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfhncR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhnsR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWfhn8R_Eeuc6NqMCSn2Fw" name="rLost">
+      <modelElement href="Tagers.uml#_5afgwsR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWfhoMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWfhocR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWfhosR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5afgw8R-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfho8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhpMR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWfhpcR_Eeuc6NqMCSn2Fw" name="rFound">
+      <modelElement href="Tagers.uml#_5agH0MR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWfhpsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWfhp8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWfhqMR_Eeuc6NqMCSn2Fw" name="p">
+        <modelElement href="Tagers.uml#_5agH0cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfhqcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhqsR_Eeuc6NqMCSn2Fw" name="Ping">
+          <modelElement href="Tagers.uml#_Xdq18cR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWfhq8R_Eeuc6NqMCSn2Fw" name="rRecoverd">
+      <modelElement href="Tagers.uml#_5agH0sR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWfhrMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWfhrcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWfhrsR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5agH08R-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfhr8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhsMR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWfhscR_Eeuc6NqMCSn2Fw" name="renameTag">
+      <modelElement href="Tagers.uml#_5agu4MR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWfhssR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWfhs8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWfhtMR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5agu4cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfhtcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhtsR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HWfht8R_Eeuc6NqMCSn2Fw" name="newname">
+        <modelElement href="Tagers.uml#_5agu4sR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWfhuMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWfhucR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HW3VAMR_Eeuc6NqMCSn2Fw" name="User" associationsOut="_HW0RsMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HW3VAcR_Eeuc6NqMCSn2Fw" position="-2317.0,375.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HW3VAsR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HW3VA8R_Eeuc6NqMCSn2Fw" name="IDuser">
+      <modelElement href="Tagers.uml#_lIfnMMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW3VBMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW3VBcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW3VBsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HW3VB8R_Eeuc6NqMCSn2Fw" name="name">
+      <modelElement href="Tagers.uml#_lIgOQMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW3VCMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW3VCcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW3VCsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HW3VC8R_Eeuc6NqMCSn2Fw" name="cr">
+      <modelElement href="Tagers.uml#_lIgOQcR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW3VDMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW3VDcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW3VDsR_Eeuc6NqMCSn2Fw" name="Credentials">
+        <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HW3VD8R_Eeuc6NqMCSn2Fw" name="User">
+      <modelElement href="Tagers.uml#_lHPC8MR-Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HW3VEMR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <stereotypes xmi:id="_HW3VEcR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_lHQREMR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HW3VEsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW3VE8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HW3VFMR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_lHQREcR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HW3VFcR_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HW3VFsR_Eeuc6NqMCSn2Fw" name="userid">
+        <modelElement href="Tagers.uml#_lHPqAMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW3VF8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW3VGMR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW3VGcR_Eeuc6NqMCSn2Fw" name="name">
+        <modelElement href="Tagers.uml#_lHPqAcR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW3VGsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW3VG8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW3VHMR_Eeuc6NqMCSn2Fw" name="login">
+        <modelElement href="Tagers.uml#_lHPqAsR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW3VHcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW3VHsR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW3VH8R_Eeuc6NqMCSn2Fw" name="pw">
+        <modelElement href="Tagers.uml#_lHPqA8R-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW3VIMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW3VIcR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HW3VIsR_Eeuc6NqMCSn2Fw" name="getlogin">
+      <modelElement href="Tagers.uml#_lHSGQMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW3VI8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW3VJMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HW3VJcR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_lHSGQcR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HW3VJsR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HW3VJ8R_Eeuc6NqMCSn2Fw" name="getpass">
+      <modelElement href="Tagers.uml#_lHSGQsR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW3VKMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW3VKcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HW3VKsR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_lHSGQ8R-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HW3VK8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HW6_YMR_Eeuc6NqMCSn2Fw" name="Credentials" associationsIn="_HW0RsMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HW6_YcR_Eeuc6NqMCSn2Fw" position="-1762.0,377.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HW6_YsR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HW6_Y8R_Eeuc6NqMCSn2Fw" name="login">
+      <modelElement href="Tagers.uml#_fl0o0MR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW6_ZMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW6_ZcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW6_ZsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HW6_Z8R_Eeuc6NqMCSn2Fw" name="pw">
+      <modelElement href="Tagers.uml#_fl1P4MR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW6_aMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW6_acR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW6_asR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HW6_a8R_Eeuc6NqMCSn2Fw" name="Credentials">
+      <modelElement href="Tagers.uml#_flM9wMR-Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HW6_bMR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <stereotypes xmi:id="_HW6_bcR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_flNk1MR-Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HW6_bsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW6_b8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HW6_cMR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_flOL4MR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HW6_ccR_Eeuc6NqMCSn2Fw" name="Credentials">
+          <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HW6_csR_Eeuc6NqMCSn2Fw" name="login">
+        <modelElement href="Tagers.uml#_flNk0MR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW6_c8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW6_dMR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW6_dcR_Eeuc6NqMCSn2Fw" name="pw">
+        <modelElement href="Tagers.uml#_flNk0cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW6_dsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW6_d8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HW_Q0MR_Eeuc6NqMCSn2Fw" name="Tracker">
+    <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HW_Q0cR_Eeuc6NqMCSn2Fw" position="-2341.0,567.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HW_Q0sR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HW_Q08R_Eeuc6NqMCSn2Fw" name="IDtracker">
+      <modelElement href="Tagers.uml#_kZzVMMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW_Q1MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW_Q1cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW_Q1sR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HW_Q18R_Eeuc6NqMCSn2Fw" name="os">
+      <modelElement href="Tagers.uml#_kZzVMcR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW_Q2MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW_Q2cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW_Q2sR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HW_Q28R_Eeuc6NqMCSn2Fw" name="userID">
+      <modelElement href="Tagers.uml#_kZzVMsR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW_Q3MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW_Q3cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW_Q3sR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HW_Q38R_Eeuc6NqMCSn2Fw" name="manID">
+      <modelElement href="Tagers.uml#_kZz8QMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HW_Q4MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW_Q4cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HW_Q4sR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HW_Q48R_Eeuc6NqMCSn2Fw" name="Tracker">
+      <modelElement href="Tagers.uml#_kZw48MR-Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HW_Q5MR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <visibility xmi:id="_HW_Q5cR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HW_Q5sR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HW_Q58R_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_kZxgAsR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HW_Q6MR_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HW_Q6cR_Eeuc6NqMCSn2Fw" name="iDtracker">
+        <modelElement href="Tagers.uml#_kZw48cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW_Q6sR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW_Q68R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW_Q7MR_Eeuc6NqMCSn2Fw" name="os">
+        <modelElement href="Tagers.uml#_kZw48sR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW_Q7cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW_Q7sR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW_Q78R_Eeuc6NqMCSn2Fw" name="userID">
+        <modelElement href="Tagers.uml#_kZw488R-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW_Q8MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW_Q8cR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HW_Q8sR_Eeuc6NqMCSn2Fw" name="manID">
+        <modelElement href="Tagers.uml#_kZw49MR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HW_Q88R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HW_Q9MR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HWxOYMR_Eeuc6NqMCSn2Fw" name="Manufacturer">
+    <modelElement href="Tagers.uml#_gHEUsMR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HWxOYcR_Eeuc6NqMCSn2Fw" position="-1822.0,596.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HWxOYsR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HWxOY8R_Eeuc6NqMCSn2Fw" name="IDman">
+      <modelElement href="Tagers.uml#_gHJ0QMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWxOZMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWxOZcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HWxOZsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HWxOZ8R_Eeuc6NqMCSn2Fw" name="NameMan">
+      <modelElement href="Tagers.uml#_gHKbUMR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWxOaMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWxOacR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HWxOasR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HWxOa8R_Eeuc6NqMCSn2Fw" name="Manufacturer">
+      <modelElement href="Tagers.uml#_gHGw8MR-Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HWxObMR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <visibility xmi:id="_HWxObcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWxObsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HWxOb8R_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_gHHYAsR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HWxOcMR_Eeuc6NqMCSn2Fw" name="Manufacturer">
+          <modelElement href="Tagers.uml#_gHEUsMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HWxOccR_Eeuc6NqMCSn2Fw" name="iDman">
+        <modelElement href="Tagers.uml#_gHGw8cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWxOcsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWxOc8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HWxOdMR_Eeuc6NqMCSn2Fw" name="nameMan">
+        <modelElement href="Tagers.uml#_gHGw8sR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWxOdcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWxOdsR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HSWBYMR_Eeuc6NqMCSn2Fw" name="Tagers">
+    <modelElement href="Tagers.uml#_HDGrgMR_Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HSWBYcR_Eeuc6NqMCSn2Fw" position="-1387.0,394.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HSWBYsR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+      <modelElement href="Tagers.uml#_HDH5oMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_HSWBY8R_Eeuc6NqMCSn2Fw" name="Annotations">
+      <modelElement href="Tagers.uml#_HDJu0MR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <visibility xmi:id="_HSWBZMR_Eeuc6NqMCSn2Fw" label="+"/>
+    <operations xmi:id="_HSWBZcR_Eeuc6NqMCSn2Fw" name="main" staticOperation="true">
+      <modelElement href="Tagers.uml#_HDH5ocR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSWBZsR_Eeuc6NqMCSn2Fw" name="StyledElement">
+        <modelElement href="Tagers.uml#_HDJHwMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSWBZ8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSWBaMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSWBacR_Eeuc6NqMCSn2Fw" name="args">
+        <modelElement href="Tagers.uml#_HDIgsMR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSWBasR_Eeuc6NqMCSn2Fw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_HSWBa8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HTZKQMR_Eeuc6NqMCSn2Fw" name="Ping" associationsOut="_HTVf4MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_Xdq18cR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HTZKQcR_Eeuc6NqMCSn2Fw" position="-1142.0,375.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HTZKQsR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HTZKQ8R_Eeuc6NqMCSn2Fw" name="tagID">
+      <modelElement href="Tagers.uml#_HMiUUMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HTZKRMR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_HMjicMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HTZKRcR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HTZKRsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTZKR8R_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTZKSMR_Eeuc6NqMCSn2Fw" name="X">
+      <modelElement href="Tagers.uml#_HMjiccR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTZKScR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKSsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTZKS8R_Eeuc6NqMCSn2Fw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTZKTMR_Eeuc6NqMCSn2Fw" name="Y">
+      <modelElement href="Tagers.uml#_HMkJgMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTZKTcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKTsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTZKT8R_Eeuc6NqMCSn2Fw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTZKUMR_Eeuc6NqMCSn2Fw" name="date">
+      <modelElement href="Tagers.uml#_HMkwkMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTZKUcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKUsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTZKU8R_Eeuc6NqMCSn2Fw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HTZKVMR_Eeuc6NqMCSn2Fw" name="Ping">
+      <modelElement href="Tagers.uml#_HDgUIMR_Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HTZKVcR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <visibility xmi:id="_HTZKVsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKV8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTZKWMR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HDg7MsR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTZKWcR_Eeuc6NqMCSn2Fw" name="Ping">
+          <modelElement href="Tagers.uml#_Xdq18cR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HTZKWsR_Eeuc6NqMCSn2Fw" name="tid">
+        <modelElement href="Tagers.uml#_HDgUIcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTZKW8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTZKXMR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTZKXcR_Eeuc6NqMCSn2Fw" name="x">
+        <modelElement href="Tagers.uml#_HDgUIsR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTZKXsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTZKX8R_Eeuc6NqMCSn2Fw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTZKYMR_Eeuc6NqMCSn2Fw" name="y">
+        <modelElement href="Tagers.uml#_HDgUI8R_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTZKYcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTZKYsR_Eeuc6NqMCSn2Fw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HTZKY8R_Eeuc6NqMCSn2Fw" name="gettID">
+      <modelElement href="Tagers.uml#_HDg7M8R_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTZKZMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKZcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTZKZsR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HDg7NMR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTZKZ8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HTZKaMR_Eeuc6NqMCSn2Fw" name="toStringDate">
+      <modelElement href="Tagers.uml#_HDhiQMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTZKacR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKasR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTZKa8R_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HDhiQcR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTZKbMR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HTZKbcR_Eeuc6NqMCSn2Fw" name="toString">
+      <modelElement href="Tagers.uml#_HDhiQsR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HTZKbsR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_HDiJUcR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HTZKb8R_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HDiwYMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HTZKcMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTZKccR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTZKcsR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HDiJUMR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTZKc8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HTi7QMR_Eeuc6NqMCSn2Fw" name="Tag" associationsIn="_HTVf4MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HTi7QcR_Eeuc6NqMCSn2Fw" position="-1228.0,611.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HTi7QsR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HTi7Q8R_Eeuc6NqMCSn2Fw" name="IDtag">
+      <modelElement href="Tagers.uml#_HMlXoMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTi7RMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTi7RcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTi7RsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTi7R8R_Eeuc6NqMCSn2Fw" name="IDman">
+      <modelElement href="Tagers.uml#_HMl-sMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTi7SMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTi7ScR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTi7SsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTi7S8R_Eeuc6NqMCSn2Fw" name="IDuser">
+      <modelElement href="Tagers.uml#_HMmlwMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTi7TMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTi7TcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTi7TsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTi7T8R_Eeuc6NqMCSn2Fw" name="TagName">
+      <modelElement href="Tagers.uml#_HMnM0MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTi7UMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTi7UcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTi7UsR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTi7U8R_Eeuc6NqMCSn2Fw" name="lastping">
+      <modelElement href="Tagers.uml#_HMnz4MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTi7VMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTi7VcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTi7VsR_Eeuc6NqMCSn2Fw" name="Ping">
+        <modelElement href="Tagers.uml#_Xdq18cR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HTi7V8R_Eeuc6NqMCSn2Fw" name="Tag">
+      <modelElement href="Tagers.uml#_HMMWEMR_Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HTi7WMR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <stereotypes xmi:id="_HTi7WcR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_HMNkMMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HTi7WsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTi7W8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTi7XMR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HMNkMcR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTi7XcR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HTi7XsR_Eeuc6NqMCSn2Fw" name="iDtag">
+        <modelElement href="Tagers.uml#_HMMWEcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTi7X8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTi7YMR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTi7YcR_Eeuc6NqMCSn2Fw" name="iDman">
+        <modelElement href="Tagers.uml#_HMMWEsR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTi7YsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTi7Y8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTi7ZMR_Eeuc6NqMCSn2Fw" name="iDuser">
+        <modelElement href="Tagers.uml#_HMMWE8R_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTi7ZcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTi7ZsR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTi7Z8R_Eeuc6NqMCSn2Fw" name="tagName">
+        <modelElement href="Tagers.uml#_HMMWFMR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTi7aMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTi7acR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTi7asR_Eeuc6NqMCSn2Fw" name="X">
+        <modelElement href="Tagers.uml#_HMM9IMR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTi7a8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTi7bMR_Eeuc6NqMCSn2Fw" name="Float">
+          <modelElement href="Tagers.uml#_HMKg4cR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HTi7bcR_Eeuc6NqMCSn2Fw" name="Y">
+        <modelElement href="Tagers.uml#_HMM9IcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HTi7bsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HTi7b8R_Eeuc6NqMCSn2Fw" name="Float">
+          <modelElement href="Tagers.uml#_HMKg4cR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HSiOoMR_Eeuc6NqMCSn2Fw" name="DAOtag" associationsIn="_HSDtgMR_Eeuc6NqMCSn2Fw" associationsOut="_HShAgMR_Eeuc6NqMCSn2Fw _HShnkMR_Eeuc6NqMCSn2Fw" generalizations="_HWdsYMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HDKV4MR_Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HSiOocR_Eeuc6NqMCSn2Fw" position="-136.0,559.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HSiOosR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+      <modelElement href="Tagers.uml#_HDLkAMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_HSiOo8R_Eeuc6NqMCSn2Fw" name="Annotations">
+      <modelElement href="Tagers.uml#_HDOAQMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <visibility xmi:id="_HSiOpMR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HSiOpcR_Eeuc6NqMCSn2Fw" defaultValue="MySingleton.getInstance()" name="singleton">
+      <modelElement href="Tagers.uml#_HMX8QMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSiOpsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSiOp8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSiOqMR_Eeuc6NqMCSn2Fw" name="MySingleton">
+        <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HSiOqcR_Eeuc6NqMCSn2Fw" defaultValue="singleton.getConn()" name="conn">
+      <modelElement href="Tagers.uml#_HMYjUMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSiOqsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSiOq8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSiOrMR_Eeuc6NqMCSn2Fw" name="Connection">
+        <modelElement href="Tagers.uml#_HLOFsMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HSiOrcR_Eeuc6NqMCSn2Fw" name="addTag">
+      <modelElement href="Tagers.uml#_HLiOwMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSiOrsR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLjc4MR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSiOr8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSiOsMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSiOscR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_HLi10MR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiOssR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiOs8R_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSiOtMR_Eeuc6NqMCSn2Fw" name="deleteTag">
+      <modelElement href="Tagers.uml#_HLjc4sR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSiOtcR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLkrAMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSiOtsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSiOt8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSiOuMR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_HLkD8MR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiOucR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiOusR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSiOu8R_Eeuc6NqMCSn2Fw" name="rLost">
+      <modelElement href="Tagers.uml#_HLkrAsR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSiOvMR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLl5IMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSiOvcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSiOvsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSiOv8R_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_HLlSEMR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiOwMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiOwcR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSiOwsR_Eeuc6NqMCSn2Fw" name="rFound">
+      <modelElement href="Tagers.uml#_HLl5IsR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSiOw8R_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLnHQMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSiOxMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSiOxcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSiOxsR_Eeuc6NqMCSn2Fw" name="p">
+        <modelElement href="Tagers.uml#_HLl5I8R_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiOx8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiOyMR_Eeuc6NqMCSn2Fw" name="Ping">
+          <modelElement href="Tagers.uml#_Xdq18cR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSiOycR_Eeuc6NqMCSn2Fw" name="rRecoverd">
+      <modelElement href="Tagers.uml#_HLnHQsR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSiOysR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLoVYMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSiOy8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSiOzMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSiOzcR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_HLnHQ8R_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiOzsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiOz8R_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSiO0MR_Eeuc6NqMCSn2Fw" name="renameTag">
+      <modelElement href="Tagers.uml#_HLoVYsR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSiO0cR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLpjgMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSiO0sR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSiO08R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSiO1MR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_HLoVY8R_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiO1cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiO1sR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HSiO18R_Eeuc6NqMCSn2Fw" name="newname">
+        <modelElement href="Tagers.uml#_HLoVZMR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSiO2MR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSiO2cR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HS6pIMR_Eeuc6NqMCSn2Fw" name="DAOuser" associationsIn="_HSGJwMR_Eeuc6NqMCSn2Fw" associationsOut="_HS1woMR_Eeuc6NqMCSn2Fw _HS2XsMR_Eeuc6NqMCSn2Fw" generalizations="_HWru0MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HDWjIMR_Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HS6pIcR_Eeuc6NqMCSn2Fw" position="-554.0,584.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HS6pIsR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+      <modelElement href="Tagers.uml#_HDXKMMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_HS6pI8R_Eeuc6NqMCSn2Fw" name="Annotations">
+      <modelElement href="Tagers.uml#_HDYYUMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <visibility xmi:id="_HS6pJMR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HS6pJcR_Eeuc6NqMCSn2Fw" defaultValue="MySingleton.getInstance()" name="singleton">
+      <modelElement href="Tagers.uml#_HMc0wMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HS6pJsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HS6pJ8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HS6pKMR_Eeuc6NqMCSn2Fw" name="MySingleton">
+        <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HS6pKcR_Eeuc6NqMCSn2Fw" defaultValue="singleton.getConn()" name="conn">
+      <modelElement href="Tagers.uml#_HMdb0MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HS6pKsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HS6pK8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HS6pLMR_Eeuc6NqMCSn2Fw" name="Connection">
+        <modelElement href="Tagers.uml#_HLOFsMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HS6pLcR_Eeuc6NqMCSn2Fw" name="addUser">
+      <modelElement href="Tagers.uml#_HLyGYMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HS6pLsR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLytcMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HS6pL8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HS6pMMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HS6pMcR_Eeuc6NqMCSn2Fw" name="u">
+        <modelElement href="Tagers.uml#_HLyGYcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HS6pMsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HS6pM8R_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HS6pNMR_Eeuc6NqMCSn2Fw" name="deleteUser">
+      <modelElement href="Tagers.uml#_HLzUgMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HS6pNcR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HL0ioMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HS6pNsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HS6pN8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HS6pOMR_Eeuc6NqMCSn2Fw" name="u">
+        <modelElement href="Tagers.uml#_HLzUgcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HS6pOcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HS6pOsR_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HS6pO8R_Eeuc6NqMCSn2Fw" name="authentication">
+      <modelElement href="Tagers.uml#_HL1JsMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HS6pPMR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HL2X0MR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HS6pPcR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HS6pPsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HS6pP8R_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HL1wwMR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HS6pQMR_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HS6pQcR_Eeuc6NqMCSn2Fw" name="c">
+        <modelElement href="Tagers.uml#_HL1JscR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HS6pQsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HS6pQ8R_Eeuc6NqMCSn2Fw" name="Credentials">
+          <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_HWpSkMR_Eeuc6NqMCSn2Fw" name="IDAOmanageTracker" associationsIn="_HWTUUMR_Eeuc6NqMCSn2Fw" subclassedBy="_HWoEcMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_XdlWYcR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HWpSkcR_Eeuc6NqMCSn2Fw" position="-237.0,-214.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HWpSksR_Eeuc6NqMCSn2Fw" label="+"/>
+    <operations xmi:id="_HWpSk8R_Eeuc6NqMCSn2Fw" name="addTracker">
+      <modelElement href="Tagers.uml#_5ahV8MR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWpSlMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWpSlcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWpSlsR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5ahV8cR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWpSl8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWpSmMR_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWpSmcR_Eeuc6NqMCSn2Fw" name="deleteTracker">
+      <modelElement href="Tagers.uml#_5ahV8sR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWpSmsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWpSm8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWpSnMR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_5ahV88R-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWpSncR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWpSnsR_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HSwREMR_Eeuc6NqMCSn2Fw" name="DAOtracker" associationsIn="_HSE7oMR_Eeuc6NqMCSn2Fw" associationsOut="_HSsmsMR_Eeuc6NqMCSn2Fw _HSsmscR_Eeuc6NqMCSn2Fw" generalizations="_HWoEcMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HDS4wMR_Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HSwREcR_Eeuc6NqMCSn2Fw" position="-264.0,15.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HSwREsR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+      <modelElement href="Tagers.uml#_HDTf0MR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_HSwRE8R_Eeuc6NqMCSn2Fw" name="Annotations">
+      <modelElement href="Tagers.uml#_HDUG4MR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <visibility xmi:id="_HSwRFMR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HSwRFcR_Eeuc6NqMCSn2Fw" defaultValue="MySingleton.getInstance()" name="singleton">
+      <modelElement href="Tagers.uml#_HMaYgMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSwRFsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSwRF8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSwRGMR_Eeuc6NqMCSn2Fw" name="MySingleton">
+        <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HSwRGcR_Eeuc6NqMCSn2Fw" defaultValue="singleton.getConn()" name="conn">
+      <modelElement href="Tagers.uml#_HMbmoMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSwRGsR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSwRG8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSwRHMR_Eeuc6NqMCSn2Fw" name="Connection">
+        <modelElement href="Tagers.uml#_HLOFsMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HSwRHcR_Eeuc6NqMCSn2Fw" name="addTracker">
+      <modelElement href="Tagers.uml#_HLr_wMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSwRHsR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLsm0MR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSwRH8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSwRIMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSwRIcR_Eeuc6NqMCSn2Fw" name="tra">
+        <modelElement href="Tagers.uml#_HLr_wcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSwRIsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSwRI8R_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSwRJMR_Eeuc6NqMCSn2Fw" name="deleteTracker">
+      <modelElement href="Tagers.uml#_HLtN4cR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSwRJcR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLucAMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSwRJsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSwRJ8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSwRKMR_Eeuc6NqMCSn2Fw" name="tra">
+        <modelElement href="Tagers.uml#_HLtN4sR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSwRKcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSwRKsR_Eeuc6NqMCSn2Fw" name="Tracker">
+          <modelElement href="Tagers.uml#_XdugUMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HSHX4MR_Eeuc6NqMCSn2Fw" name="APItrackerController" associationsOut="_HSDtgMR_Eeuc6NqMCSn2Fw _HSE7oMR_Eeuc6NqMCSn2Fw _HSGJwMR_Eeuc6NqMCSn2Fw _HSGw0MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HC-vsMR_Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HSHX4cR_Eeuc6NqMCSn2Fw" position="-296.0,314.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_HSHX4sR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+      <modelElement href="Tagers.uml#_HC_90MR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_HSHX48R_Eeuc6NqMCSn2Fw" name="Annotations">
+      <modelElement href="Tagers.uml#_HDCaEMR_Eeuc6NqMCSn2Fw"/>
+    </stereotypes>
+    <visibility xmi:id="_HSHX5MR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HSHX5cR_Eeuc6NqMCSn2Fw" name="_daotag">
+      <modelElement href="Tagers.uml#_HMUR4MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSHX5sR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSHX58R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSHX6MR_Eeuc6NqMCSn2Fw" name="DAOtag">
+        <modelElement href="Tagers.uml#_HDKV4MR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HSHX6cR_Eeuc6NqMCSn2Fw" name="_daotracker">
+      <modelElement href="Tagers.uml#_HMU48MR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSHX6sR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSHX68R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSHX7MR_Eeuc6NqMCSn2Fw" name="DAOtracker">
+        <modelElement href="Tagers.uml#_HDS4wMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HSHX7cR_Eeuc6NqMCSn2Fw" name="_daouser">
+      <modelElement href="Tagers.uml#_HMVgAMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSHX7sR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HSHX78R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSHX8MR_Eeuc6NqMCSn2Fw" name="DAOuser">
+        <modelElement href="Tagers.uml#_HDWjIMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HSHX8cR_Eeuc6NqMCSn2Fw" name="trackerCRTL">
+      <modelElement href="Tagers.uml#_HMWHEMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HSHX8sR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HSHX88R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HSHX9MR_Eeuc6NqMCSn2Fw" name="TrackerController">
+        <modelElement href="Tagers.uml#_Xa2LcMR-Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HSHX9cR_Eeuc6NqMCSn2Fw" name="APItrackerController">
+      <modelElement href="Tagers.uml#_HK_cMMR_Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HSHX9sR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <stereotypes xmi:id="_HSHX98R_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLAqUMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSHX-MR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSHX-cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HSHX-sR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HLADQsR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HSHX-8R_Eeuc6NqMCSn2Fw" name="APItrackerController">
+          <modelElement href="Tagers.uml#_HC-vsMR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HSHX_MR_Eeuc6NqMCSn2Fw" name="trackerManager">
+        <modelElement href="Tagers.uml#_HK_cMcR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSHX_cR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSHX_sR_Eeuc6NqMCSn2Fw" name="TrackerController">
+          <modelElement href="Tagers.uml#_Xa2LcMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSHX_8R_Eeuc6NqMCSn2Fw" name="authenticate">
+      <modelElement href="Tagers.uml#_HLAqUsR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSHYAMR_Eeuc6NqMCSn2Fw" name="Generics">
+        <modelElement href="Tagers.uml#_HLB4cMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HSHYAcR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLDGkMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSHYAsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSHYA8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HSHYBMR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HMEaQMR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HSHYBcR_Eeuc6NqMCSn2Fw" name="HashMap">
+          <modelElement href="Tagers.uml#_HKyn4MR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HSHYBsR_Eeuc6NqMCSn2Fw" name="crs">
+        <modelElement href="Tagers.uml#_HLAqU8R_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSHYB8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSHYCMR_Eeuc6NqMCSn2Fw" name="Credentials">
+          <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSHYCcR_Eeuc6NqMCSn2Fw" name="addUser">
+      <modelElement href="Tagers.uml#_HLDtoMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSHYCsR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLE7wcR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSHYC8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSHYDMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSHYDcR_Eeuc6NqMCSn2Fw" name="u">
+        <modelElement href="Tagers.uml#_HLDtocR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSHYDsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSHYD8R_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HSHYEMR_Eeuc6NqMCSn2Fw" name="regesterTag">
+      <modelElement href="Tagers.uml#_HLFi0MR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HSHYEcR_Eeuc6NqMCSn2Fw" name="Annotations">
+        <modelElement href="Tagers.uml#_HLHYAMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HSHYEsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HSHYE8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HSHYFMR_Eeuc6NqMCSn2Fw" name="t">
+        <modelElement href="Tagers.uml#_HLFi0cR_Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HSHYFcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HSHYFsR_Eeuc6NqMCSn2Fw" name="Tag">
+          <modelElement href="Tagers.uml#_XdsrIMR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HTIrkMR_Eeuc6NqMCSn2Fw" name="MySingleton" associationsIn="_HTCk8MR_Eeuc6NqMCSn2Fw _HShAgMR_Eeuc6NqMCSn2Fw _HSsmsMR_Eeuc6NqMCSn2Fw _HS1woMR_Eeuc6NqMCSn2Fw" associationsOut="_HTCk8MR_Eeuc6NqMCSn2Fw _HTDMAMR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HTIrkcR_Eeuc6NqMCSn2Fw" position="-579.0,35.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HTIrksR_Eeuc6NqMCSn2Fw" label="+"/>
+    <attributes xmi:id="_HTIrk8R_Eeuc6NqMCSn2Fw" name="conn">
+      <modelElement href="Tagers.uml#_HMep8MR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HTIrlMR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_HMfRAMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HTIrlcR_Eeuc6NqMCSn2Fw" label="~"/>
+      <cardinality xmi:id="_HTIrlsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTIrl8R_Eeuc6NqMCSn2Fw" name="Connection">
+        <modelElement href="Tagers.uml#_HLOFsMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTIrmMR_Eeuc6NqMCSn2Fw" defaultValue="null" name="m" staticAttribute="true">
+      <modelElement href="Tagers.uml#_HMf4EMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HTIrmcR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_HMgfIMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HTIrmsR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HTIrm8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTIrnMR_Eeuc6NqMCSn2Fw" name="MySingleton">
+        <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HTIrncR_Eeuc6NqMCSn2Fw" defaultValue="&quot;null&quot;" name="testbd">
+      <modelElement href="Tagers.uml#_HMhGMMR_Eeuc6NqMCSn2Fw"/>
+      <stereotypes xmi:id="_HTIrnsR_Eeuc6NqMCSn2Fw" name="LegacyStyledElement">
+        <modelElement href="Tagers.uml#_HMhtQMR_Eeuc6NqMCSn2Fw"/>
+      </stereotypes>
+      <visibility xmi:id="_HTIrn8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTIroMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <type xmi:id="_HTIrocR_Eeuc6NqMCSn2Fw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HTIrosR_Eeuc6NqMCSn2Fw" name="getConn">
+      <modelElement href="Tagers.uml#_HDcCsMR_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTIro8R_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTIrpMR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTIrpcR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HMIrsMR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTIrpsR_Eeuc6NqMCSn2Fw" name="Connection">
+          <modelElement href="Tagers.uml#_HLOFsMR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HTIrp8R_Eeuc6NqMCSn2Fw" name="MySingleton">
+      <modelElement href="Tagers.uml#_HDcpwMR_Eeuc6NqMCSn2Fw"/>
+      <keywords xmi:id="_HTIrqMR_Eeuc6NqMCSn2Fw" keyword="create"/>
+      <visibility xmi:id="_HTIrqcR_Eeuc6NqMCSn2Fw" label="-"/>
+      <cardinality xmi:id="_HTIrqsR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTIrq8R_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HDdQ0sR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTIrrMR_Eeuc6NqMCSn2Fw" name="MySingleton">
+          <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HTIrrcR_Eeuc6NqMCSn2Fw" name="getInstance" staticOperation="true">
+      <modelElement href="Tagers.uml#_HDdQ08R_Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HTIrrsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HTIrr8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HTIrsMR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_HL5bIMR_Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HTIrscR_Eeuc6NqMCSn2Fw" name="MySingleton">
+          <modelElement href="Tagers.uml#_HDbboMR_Eeuc6NqMCSn2Fw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_HWtkAMR_Eeuc6NqMCSn2Fw" name="IDAOmanageUser" associationsIn="_HWT7YMR_Eeuc6NqMCSn2Fw" subclassedBy="_HWru0MR_Eeuc6NqMCSn2Fw">
+    <modelElement href="Tagers.uml#_XdnLkcR-Eeuc6NqMCSn2Fw"/>
+    <visualProperties xmi:id="_HWtkAcR_Eeuc6NqMCSn2Fw" position="-2323.0,-203.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HWtkAsR_Eeuc6NqMCSn2Fw" label="+"/>
+    <operations xmi:id="_HWtkA8R_Eeuc6NqMCSn2Fw" name="addUser">
+      <modelElement href="Tagers.uml#_5aikEcR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWtkBMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWtkBcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWtkBsR_Eeuc6NqMCSn2Fw" name="u">
+        <modelElement href="Tagers.uml#_5ajLIMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWtkB8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWtkCMR_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWtkCcR_Eeuc6NqMCSn2Fw" name="deleteUser">
+      <modelElement href="Tagers.uml#_5ajLIcR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWtkCsR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWtkC8R_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_HWtkDMR_Eeuc6NqMCSn2Fw" name="u">
+        <modelElement href="Tagers.uml#_5ajyMMR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWtkDcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWtkDsR_Eeuc6NqMCSn2Fw" name="User">
+          <modelElement href="Tagers.uml#_XdvuccR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HWtkD8R_Eeuc6NqMCSn2Fw" name="authentication">
+      <modelElement href="Tagers.uml#_5ajyMcR-Eeuc6NqMCSn2Fw"/>
+      <visibility xmi:id="_HWtkEMR_Eeuc6NqMCSn2Fw" label="+"/>
+      <cardinality xmi:id="_HWtkEcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HWtkEsR_Eeuc6NqMCSn2Fw">
+        <modelElement href="Tagers.uml#_5akZQMR-Eeuc6NqMCSn2Fw"/>
+        <type xmi:id="_HWtkE8R_Eeuc6NqMCSn2Fw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HWtkFMR_Eeuc6NqMCSn2Fw" name="c">
+        <modelElement href="Tagers.uml#_5ajyMsR-Eeuc6NqMCSn2Fw"/>
+        <cardinality xmi:id="_HWtkFcR_Eeuc6NqMCSn2Fw" label="1" max="1" min="1"/>
+        <type xmi:id="_HWtkFsR_Eeuc6NqMCSn2Fw" name="Credentials">
+          <modelElement href="Tagers.uml#_XdpAwcR-Eeuc6NqMCSn2Fw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
