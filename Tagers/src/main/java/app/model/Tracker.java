@@ -1,12 +1,17 @@
 package app.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Tracker {
 	private String IDtracker;
 	private String os;
 	private String userID;
 	private String manID;
 
-	public Tracker(String iDtracker, String os, String userID, String manID) {
+	public Tracker(@JsonProperty("trackerid") String iDtracker,
+			@JsonProperty("os") String os,
+			@JsonProperty("userid") String userID,
+			@JsonProperty("manid") String manID) {
 		super();
 		IDtracker = iDtracker;
 		this.os = os;

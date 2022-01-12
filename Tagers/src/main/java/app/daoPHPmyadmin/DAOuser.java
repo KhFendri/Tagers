@@ -17,7 +17,7 @@ public class DAOuser implements IDAOmanageUser {
 	Connection conn = singleton.getConn(); // establishing connection
 
 	@Override
-	public void addUser(User u) {
+	public String addUser(User u) {
 		String idUser = u.getIDuser();
 		String name = u.getName();
 		String mail = u.getlogin();
@@ -31,17 +31,20 @@ public class DAOuser implements IDAOmanageUser {
 			ps.executeUpdate(requete);
 
 			ps.close();
+			
+			return(idUser);
 
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.out.println("Execption");
+			return("error");
 		}
 
 	}
 
 	@Override
-	public void deleteUser(User u) {
-		// TODO Auto-generated method stub
+	public String deleteUser(User u) {
+		return null;
 
 	}
 
@@ -71,6 +74,7 @@ public class DAOuser implements IDAOmanageUser {
 			ps.close();
 
 		} catch (SQLException e) {
+			e.printStackTrace();
 			return("user not found");
 		}
 

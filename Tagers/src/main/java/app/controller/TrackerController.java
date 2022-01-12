@@ -1,5 +1,7 @@
 package app.controller;
 
+import java.util.HashMap;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -12,6 +14,7 @@ import app.model.Ping;
 import app.model.Tag;
 import app.model.Tracker;
 import app.model.User;
+import utilities.*;
 
 @Service
 public class TrackerController {
@@ -38,40 +41,53 @@ public class TrackerController {
 		// return false;
 		return att;
 	}
-
-	public void addUser(User u) {
-		_daoManageuser.addUser(u);
+	
+	public boolean verifyOwnershipTag (SimpleIdAssociationCom jcom) {
+		return(_daoManageTag.verifyOwnershipTag(jcom));
+	}
+	
+	public boolean verifyOwnershipTracker (SimpleIdAssociationCom jcom) {
+		return(_daoManageTag.verifyOwnershipTracker(jcom));
 	}
 
-	public void regesterTag(Tag t) {
-		_daoManageTag.addTag(t);
+	public String addUser(User u) {
+		return (_daoManageuser.addUser(u));
 	}
 
-	public void reportLostTag(Tag t) {
-		_daoManageTag.rLost(t);
+	public String regesterTag(Tag t) {
+		return (_daoManageTag.addTag(t));
 	}
 
-	public void reportFoundTag(Ping p) {
-		_daoManageTag.rFound(p);
+	public String reportLostTag(String tagid) {
+		return(_daoManageTag.rLost(tagid));
 	}
 
-	public void reportRecoveredTag(Tag t) {
-		_daoManageTag.rRecoverd(t);
+	public String reportFoundTag(Ping p) {
+		return(_daoManageTag.rFound(p));
 	}
 
-	public void renameTag(Tag t, String newname) {
-		_daoManageTag.renameTag(t, newname);
+	public String reportRecoveredTag(Tag t) {
+		return(_daoManageTag.rRecoverd(t));
 	}
 
-	public void deleteTag(Tag t) {
-		_daoManageTag.deleteTag(t);
+	public String renameTag(Tag t, String newname) {
+		return(_daoManageTag.renameTag(t, newname));
 	}
 
-	public void deleteTracker(Tracker tr) {
-		_daoManageTracker.deleteTracker(tr);
+	public String deleteTag(Tag t) {
+		return(_daoManageTag.deleteTag(t));
 	}
 
-	public void regerterTracker(Tracker tra) {
-		_daoManageTracker.addTracker(tra);
+	public HashMap<String, String> pingMe (SimpleIdAssociationCom jcom) {
+		return(_daoManageTag.pingMe(jcom));
 	}
+	
+	public String deleteTracker(Tracker tr) {
+		return(_daoManageTracker.deleteTracker(tr));
+	}
+
+	public String regesterTracker(Tracker tra) {
+		return(_daoManageTracker.addTracker(tra));
+	}
+	
 }

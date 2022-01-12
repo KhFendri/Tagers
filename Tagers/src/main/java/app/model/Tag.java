@@ -14,8 +14,8 @@ public class Tag {
 			@JsonProperty("manid") String iDman,
 			@JsonProperty("userid") String iDuser,
 			@JsonProperty("tagname") String tagName,
-			@JsonProperty("X") Float X,
-			@JsonProperty("Y") Float Y
+			@JsonProperty("X") String X,
+			@JsonProperty("Y") String Y
 			) {
 		super();
 		
@@ -23,7 +23,7 @@ public class Tag {
 		IDman = iDman;
 		IDuser = iDuser;
 		TagName = tagName;
-		this.lastping = new Ping(iDtag, X, Y);
+		this.lastping = new Ping(iDtag, Float.parseFloat(X), Float.parseFloat(Y));
 	}
 
 	public String getIDuser() {
